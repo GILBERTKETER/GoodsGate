@@ -7,10 +7,10 @@ export function Footer() {
   return (
     <footer className="pb-5 p-10 md:pt-10">
       <div className="container flex flex-col mx-auto">
-        <div className="flex !w-full py-10 mb-5 md:mb-20 flex-col justify-center !items-center bg-gray-900 max-w-6xl mx-auto rounded-2xl p-5 ">
+        <div className="flex !w-full py-10 mb-5 md:mb-20 flex-col justify-center !items-center bg-blue-200 max-w-6xl mx-auto rounded-2xl p-5 ">
           <Typography
             className="text-2xl md:text-3xl text-center font-bold "
-            color="white"
+            color="orange"
           >
             Join us today and enjoy exclusive offers!
           </Typography>
@@ -32,6 +32,7 @@ export function Footer() {
             href="#"
             variant="h6"
             className="text-gray-900"
+            style={{color:"orange"}}
           >
             GoodsGate
           </Typography>
@@ -67,9 +68,10 @@ export function Footer() {
         </div>
         <Typography
           color="blue-gray"
-          className="text-center mt-12 font-normal !text-gray-700"
+          className="flex items-center justify-center text-center mt-12 font-normal !text-gray-700"
         >
-          &copy; {CURRENT_YEAR} Powered by GoodsGate. All rights reserved.
+          &copy; {CURRENT_YEAR} Powered by <p style={{color:"orange"}}
+          >GoodsGate</p>. All rights reserved.
         </Typography>
       </div>
     </footer>

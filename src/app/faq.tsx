@@ -34,7 +34,7 @@ export function Faq() {
     <section className="py-8 px-8 lg:py-20">
       <div className="container mx-auto">
         <div className="text-center">
-          <Typography variant="h1" color="blue-gray" className="mb-4">
+          <Typography variant="h1" color="orange" className="mb-4">
             Frequently Asked Questions
           </Typography>
           <Typography
@@ -52,7 +52,7 @@ export function Faq() {
               open={open === key + 1}
               onClick={() => handleOpen(key + 1)}
             >
-              <AccordionHeader className="text-left text-gray-900">
+              <AccordionHeader className="text-left text-blue-200 hover:text-blue-500">
                 {title}
               </AccordionHeader>
               <AccordionBody>

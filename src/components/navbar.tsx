@@ -95,6 +95,7 @@ export function Navbar() {
         <Typography
           color={isScrolling ? "blue-gray" : "white"}
           className="text-lg font-bold"
+          style={{ color: "orange" }}
         >
           GoodsGate
         </Typography>
@@ -115,7 +116,12 @@ export function Navbar() {
             Contact Us
           </Button>
           <a href="#" target="_blank">
-            <Button className="bg-blue-200" color={isScrolling ? "gray" : "white"}>Shop Now</Button>
+            <Button
+              className="bg-blue-200"
+              color={isScrolling ? "gray" : "white"}
+            >
+              Shop Now
+            </Button>
           </a>
         </div>
         <IconButton
@@ -144,7 +150,9 @@ export function Navbar() {
           <div className="mt-6 flex items-center gap-4">
             <Button variant="text">Contact Us</Button>
             <a href="#" target="_blank">
-              <Button color="gray" className="bg-blue-200">Shop Now</Button>
+              <Button color="gray" className="bg-blue-200">
+                Shop Now
+              </Button>
             </a>
           </div>
         </div>
