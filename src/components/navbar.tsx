@@ -36,19 +36,23 @@ function NavItem({ children, href }: NavItemProps) {
   );
 }
 
+// Updated NAV_MENU for business firm site
 const NAV_MENU = [
   {
-    name: "Page",
+    name: "Home",
     icon: RectangleStackIcon,
   },
   {
-    name: "Account",
+    name: "About Us",
     icon: UserCircleIcon,
   },
   {
-    name: "Docs",
+    name: "Services",
     icon: CommandLineIcon,
-    href: "https://www.material-tailwind.com/docs/react/installation",
+  },
+  {
+    name: "Products",
+    icon: Squares2X2Icon,
   },
 ];
 
@@ -92,7 +96,7 @@ export function Navbar() {
           color={isScrolling ? "blue-gray" : "white"}
           className="text-lg font-bold"
         >
-          Material Tailwind
+          GoodsGate
         </Typography>
         <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${
@@ -101,22 +105,22 @@ export function Navbar() {
         >
           {NAV_MENU.map(({ name, icon: Icon, href }) => (
             <NavItem key={name} href={href}>
-              <Icon className="h-5 w-5" />
+              <Icon className="text-blue-200 h-5 w-5" />
               <span>{name}</span>
             </NavItem>
           ))}
         </ul>
         <div className="hidden items-center gap-4 lg:flex">
           <Button color={isScrolling ? "gray" : "white"} variant="text">
-            Log in
+            Contact Us
           </Button>
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
-            <Button color={isScrolling ? "gray" : "white"}>blocks</Button>
+          <a href="#" target="_blank">
+            <Button className="bg-blue-200" color={isScrolling ? "gray" : "white"}>Shop Now</Button>
           </a>
         </div>
         <IconButton
           variant="text"
-          color={isScrolling ? "gray" : "white"}
+          color={isScrolling ? "blue" : "white"}
           onClick={handleOpen}
           className="ml-auto inline-block lg:hidden"
         >
@@ -132,15 +136,15 @@ export function Navbar() {
           <ul className="flex flex-col gap-4 text-gray-900">
             {NAV_MENU.map(({ name, icon: Icon, href }) => (
               <NavItem key={name} href={href}>
-                <Icon className="h-5 w-5" />
+                <Icon className=" text-blue-200 h-5 w-5" />
                 {name}
               </NavItem>
             ))}
           </ul>
           <div className="mt-6 flex items-center gap-4">
-            <Button variant="text">Log in</Button>
-            <a href="https://www.materila-tailwind.com/blocks" target="_blank">
-              <Button color="gray">blocks</Button>
+            <Button variant="text">Contact Us</Button>
+            <a href="#" target="_blank">
+              <Button color="gray" className="bg-blue-200">Shop Now</Button>
             </a>
           </div>
         </div>

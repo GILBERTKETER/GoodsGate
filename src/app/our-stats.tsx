@@ -5,20 +5,20 @@ import StatsCard from "@/components/stats-card";
 
 const STATS = [
   {
-    count: "1,500+",
-    title: "Participants",
+    count: "10,000+",
+    title: "Products Available",
   },
   {
-    count: "50",
-    title: "Speakers",
+    count: "500+",
+    title: "Happy Customers",
   },
   {
-    count: "20+",
-    title: "Workshops",
+    count: "100+",
+    title: "Brands",
   },
   {
-    count: "3",
-    title: "Days",
+    count: "24/7",
+    title: "Customer Support",
   },
 ];
 
@@ -30,18 +30,18 @@ export function OurStats() {
           Our Stats
         </Typography>
         <Typography
-          className="text-5xl font-bold leading-tight lg:w-3/4"
-          color="blue-gray"
+          className="text-5xl font-bold leading-tight lg:w-3/4 text-blue-200"
+          color="blue-200"
         >
-          Conference Highlights
+          GoodsGate Highlights
         </Typography>
         <Typography
           variant="lead"
           className="mt-3 w-full !text-gray-500 lg:w-9/12"
         >
-          This three-day extravaganza brings together the brightest minds,
-          leading innovators, and top companies in the field of Artificial
-          Intelligence.
+          Discover a wide variety of quality products, trusted brands, and
+          unparalleled customer support, all available at GoodsGate to enhance
+          your shopping experience.
         </Typography>
       </div>
       <div>

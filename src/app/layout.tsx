@@ -10,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "NextJS Tailwind Event Landing Page",
+  title: "GoodsGate - Your One-Stop Shopping Destination",
   description:
-    "Introducing Tailwind Event Landing Page, a dynamic and visually appealing landing page template designed using Tailwind CSS and Material Tailwind.",
+    "GoodsGate offers a diverse range of quality products with a user-friendly shopping experience, bringing convenience to your doorstep.",
 };
 
 export default function RootLayout({
