@@ -18,7 +18,8 @@ export function Footer() {
             color="white"
             className=" md:w-7/12 text-center my-3 !text-base"
           >
-            Take advantage of our special deals to get quality products for your business needs.
+            Take advantage of our special deals to get quality products for your
+            business needs.
           </Typography>
           <div className="flex w-full md:w-fit gap-3 mt-2 flex-col md:flex-row">
             <Button color="white" size="md">
@@ -32,7 +33,7 @@ export function Footer() {
             href="#"
             variant="h6"
             className="text-gray-900"
-            style={{color:"orange"}}
+            style={{ color: "orange" }}
           >
             GoodsGate
           </Typography>
@@ -70,8 +71,8 @@ export function Footer() {
           color="blue-gray"
           className="flex items-center justify-center text-center mt-12 font-normal !text-gray-700"
         >
-          &copy; {CURRENT_YEAR} Powered by <p style={{color:"orange"}}
-          >GoodsGate</p>. All rights reserved.
+          &copy; {CURRENT_YEAR} Powered by {" "}
+          <small className=" ml-2" style={{fontSize:"20px", color: "orange" }}> GoodsGate</small>. All rights reserved.
         </Typography>
       </div>
     </footer>

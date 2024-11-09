@@ -36,13 +36,13 @@ export function ProductContent() {
       <Tabs value="Electronics" className="mb-8">
         <div className="w-full flex mb-8 flex-col items-center">
           <TabsHeader className="h-12 w-72 md:w-96">
-            <Tab value="Electronics" className="text-orange font-medium">
+            <Tab style={{color:"orange"}} value="Electronics" className="font-medium">
               Electronics
             </Tab>
-            <Tab value="Fashion" className="text-orange font-medium">
+            <Tab style={{color:"orange"}} value="Fashion" className="font-medium">
               Fashion
             </Tab>
-            <Tab value="Home Goods" className="text-orange font-medium">
+            <Tab style={{color:"orange"}} value="Home Goods" className=" font-medium">
               Home Goods
             </Tab>
           </TabsHeader>

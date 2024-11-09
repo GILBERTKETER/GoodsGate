@@ -46,7 +46,11 @@ export function EventContentCard({
         <Typography variant="h6" color="orange" className="mb-4">
           {panel}
         </Typography>
-        <Typography variant="h2" color="blue-200" className="text-blue-200 mb-4 font-medium">
+        <Typography
+          variant="h2"
+          // color="blue-200"
+          className="text-blue-200 mb-4 font-medium"
+        >
           {title}
         </Typography>
         <Typography className="mb-12 md:w-8/12 font-medium !text-gray-500">
@@ -60,7 +64,11 @@ export function EventContentCard({
             size="lg"
           />
           <div>
-            <Typography variant="h6" color="blue-200" className="text-blue-200 mb-0.5">
+            <Typography
+              variant="h6"
+              // color="blue-200"
+              className="text-blue-200 mb-0.5"
+            >
               {name}
             </Typography>
             <Typography variant="small" className="font-normal !text-gray-500">

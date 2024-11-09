@@ -1,7 +1,12 @@
 "use client";
 
 import React from "react";
-import { Typography, Accordion, AccordionHeader, AccordionBody } from "@material-tailwind/react";
+import {
+  Typography,
+  Accordion,
+  AccordionHeader,
+  AccordionBody,
+} from "@material-tailwind/react";
 
 const FAQS = [
   {
@@ -41,7 +46,9 @@ export function Faq() {
             variant="lead"
             className="mx-auto mb-24 lg:w-3/5 !text-gray-500"
           >
-            Welcome to GoodsGate’s FAQ section. Here you'll find answers to the most common questions to help improve your shopping experience with us.
+            Welcome to GoodsGate’s FAQ section. Here you will find answers to
+            the most common questions to help improve your shopping experience
+            with us.
           </Typography>
         </div>
 

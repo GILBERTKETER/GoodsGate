@@ -31,7 +31,10 @@ export function AboutGoodsGate() {
         variant="lead"
         className="mt-2 lg:max-w-4xl mb-8 w-full text-center font-normal !text-gray-500"
       >
-        Welcome to GoodsGate, your gateway to a world of quality products and unbeatable prices. Whether you're a consumer looking for exclusive finds or a business seeking reliable suppliers, GoodsGate offers a unique shopping experience tailored to your needs.
+        Welcome to GoodsGate, your gateway to a world of quality products and
+        unbeatable prices. Whether you are a consumer looking for exclusive finds
+        or a business seeking reliable suppliers, GoodsGate offers a unique
+        shopping experience tailored to your needs.
       </Typography>
       <div className="mt-8 w-full grid grid-cols-1 md:grid-cols-2 gap-4">
         {PRODUCT_INFO.map((props, idx) => (
